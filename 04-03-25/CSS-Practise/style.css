@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;  
+    margin: 0 auto; 
+}
+
+.box1, .box2 {
+    width: 45%;  
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+}
