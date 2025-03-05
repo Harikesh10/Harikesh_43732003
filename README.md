@@ -12,3 +12,14 @@
 -> Practise CSS , How to create a div anywhere in the page
 
 -->Did a Food Website clone
+
+#### 05/03/2025
+
+--> Practise the styles in css
+
+-> Practised Flex and Grid in css
+
+--> Did a Calculator
+
+--> Did a portfolio
+
