@@ -1,0 +1,33 @@
+.container{
+    background-color: #5A5A5A;
+    color: white;
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-right: 40%;
+    height: 500px;
+    border: solid 1px;
+    border-radius: 6%;
+    
+}
+
+.display{
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: black;
+    
+
+}
+.flex{
+    margin-top: 25%;
+    display: flex;
+    gap: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.end{
+    margin-left: 40%;
+}
+
+

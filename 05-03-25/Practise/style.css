@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    background-color: blueviolet;
+    gap: 10%;
+    height: 200px;
+}
+
+.div1{
+  background-color: lightcoral;
+  margin-bottom: 120px;
+  margin-left: 20px;
+  margin-right: 30px;
+  margin-top: 10px;
+  padding: 20px;
+}
+.div2{
+  background-color: lightcoral;
+  margin-top: 120px;
+  margin-right: 40px;
+  margin-bottom: 15px;
+  padding:20px;
+
+}
+.div3{
+  background-color: lightcoral;
+  margin-bottom: 120px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 20px;
+}
