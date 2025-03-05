@@ -1,7 +1,7 @@
 # JAVA FULLSTACK DEVELOPMENT
 #### 03/03/2025
 
-->Practise of html 
+->Practise of HTML
 
 ->Developed a static website
 
