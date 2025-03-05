@@ -30,13 +30,14 @@ body{
 }
 
 .container2{
-    margin-top: 5%;
+    margin-top: 3%;
     border: solid 1.5px;
     margin-left: 2%;
     margin-right: 2%;
     height: 380px;
 }
 .des{
+    background-color: white;
     margin: 1%;
     border: solid 1.5px;
 
@@ -85,6 +86,7 @@ body{
     gap: 20%;
 }
 .skill{
+    background-color: white;
     margin-left: 1%;
     margin-top: 1%;
     border: solid 1px;
@@ -92,6 +94,7 @@ body{
     width: 250px;
 }
 .exper{
+    background-color: white;
     margin-top: 1%;
     margin-left: 3%;
     border: solid 1px;
@@ -99,6 +102,7 @@ body{
     width: 250px;
 }
 .certi{
+    background-color: white;
     margin-top: 1%;
     margin-left: 3%;
     border: solid 1px;
