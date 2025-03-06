@@ -1,0 +1,29 @@
+flex direction
+--> row , column
+
+main axis and cross asix
+
+
+justify-content 
+--> start , center, end
+align-items
+
+
+
+
+in row wise
+--> justify-content is main axis
+-->align-items is the cross axis
+
+justify-cotent : space-between is there is space between the elements only, rejecting the margin at the top , end , sides 
+justify-cotent : space-around is there is space equal between the elements even from the left and the right side
+
+in column wise
+-->the align-items is the main axis
+--> justify-content is cross axis
+
+
+
+****
+the column wise alignment is used to create a webiste , with the proper alignement of the nav, body and the footer
+

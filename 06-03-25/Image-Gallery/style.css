@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.body{
+    margin-top: 5%;
+    border: solid blue;
+    height: 129vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #444DAD;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+.nav{
+    background-color: grey;
+    width: 100%;
+    
+}
+.foot{
+    margin-top: 5%;
+    background-color: grey;
+    width: 100%;
+}
+
+.box:hover{
+    transform: scale(1.1) translateY(-10px);
+}
+
