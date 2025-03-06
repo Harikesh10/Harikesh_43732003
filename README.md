@@ -23,3 +23,13 @@
 
 --> Did a portfolio
 
+#### 06/03/2025
+
+--> Practise the basic of javascript from variable declaration to conditional statements
+
+--> Practise DOM and  create a small counter application
+
+--> Revised the concepts of flex box and div alignement
+
+--> Created a image gallery
+
