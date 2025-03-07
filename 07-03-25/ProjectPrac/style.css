@@ -184,6 +184,11 @@ body{
 }
 .food-item > p{
     margin-top: 5px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.food-item:hover{
+    transform: scale(1.05);
 }
 
 
