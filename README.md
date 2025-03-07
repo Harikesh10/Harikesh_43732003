@@ -33,3 +33,11 @@
 
 --> Created a image gallery
 
+#### 07/03/25
+
+--> Task to create a clone of a delivery web application
+
+--> Practised the concepts of html and css
+
+--> Created navbar, poster , menu
+
