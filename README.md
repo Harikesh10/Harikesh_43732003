@@ -41,3 +41,13 @@
 
 --> Created navbar, poster , menu
 
+#### 10/03/25
+
+--> Practise js looping concepts
+
+--> Practised js function concepts
+
+--> Add the food items in the project using the function
+
+--> Made changes in the project
+
