@@ -49,5 +49,5 @@
 
 --> Add the food items in the project using the function
 
---> Made changes in the project
+--> Made changes in the project by adding the dishes
 
