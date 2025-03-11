@@ -51,3 +51,13 @@
 
 --> Made changes in the project by adding the dishes
 
+#### 11/03/25
+
+--> Made changes in the styles in the project
+
+--> Added the footer in the project
+
+--> Practise the basic concepts of js
+
+--> Variable, datatypes, condition statement , iterative statement, array, string, function (types), objects, methods , DOM 
+
