@@ -61,3 +61,8 @@
 
 --> Variable, datatypes, condition statement , iterative statement, array, string, function (types), objects, methods , DOM 
 
+#### 12/03/25
+
+--> Started doing a do to list project
+
+--> Finished the javascript part
