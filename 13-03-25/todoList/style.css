@@ -1,32 +1,122 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    
-}
-.container{
-    width: 500px;
-    min-height: 400px;
-    background-color: grey;
+    background-color: black;
+    font-family: 'Arial', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Rubik", sans-serif;
     
 }
-.container-input{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+h1{
+    font-size: 70px;
+    color: white;
 }
-.container-task{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+
+/* Main Dappa */
+.container {
+    width: 350px;
+    min-height: 450px;
+    background: #1c1c1e;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
 }
-.container-pending{
+
+.container-input {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    background: #2c2c2e;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#task-input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.container-input button {
+    background: #fcb045;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container-input button:hover {
+    background: #fd1d1d;
+}
+
+ 
+.container-task {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-bottom: 90px;
+    background: #2c2c2e;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 8px 0;
+    transition: 0.3s;
+}
+
+.container-task p {
+    color: white;
+    font-size: 16px;
+}
+
+.container-task button {
+    background: #fd1d1d;
+    border: none;
+    padding: 6px 12px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container-task button:hover {
+    background: #fcb045;
+}
+
+ 
+.container-pending {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container-pending p {
+    font-size: 14px;
+    color: white;
+}
+
+.container-pending button {
+    background: #fd1d1d;
+    border: none;
+    padding: 6px 12px;
+    color: white;
+    border-radius: 10px;
+   
+}
+
+.container-pending button:hover {
+    background: #fcb045;
 }
