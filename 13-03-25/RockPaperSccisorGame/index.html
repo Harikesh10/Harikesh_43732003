@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Papper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container jost-regular">
+        <h1>Roshambo</h1>
+        <h3 class="jost-medium"> Rock Papper Scissors</h3>
+        <div class="game-info">
+           <img src="./assets/rock.png" onclick="play('Rock')">
+            <img src="./assets/paper.png" onclick="play('Paper')">
+            <img src="./assets/scissors.png" onclick="play('Scissor')">
+        </div>
+        <p id="result">-</p>
+        <div class="choice">
+            <table>
+                <tr>
+                    <td>ME</td>
+                    <td>AI</td>
+                </tr>
+                <tr>
+                    <td><img id="your-choice" src="./assets/paper.png"/></td>
+                    <td><img id="computer-choice"src="./assets/paper.png"/></td>
+                </tr>
+            </table>
+    </div>
+        <div class="score">
+            <table>
+             <tbody>
+                    <tr>
+                        <td class="scores">Wins : 0</td>
+                        <td class="scores">Loses : 0</td>
+                        <td class="scores">Ties : 0</td>
+                    </tr>
+                </tbody>
+         </table>
+        </div>
+<button onclick="resetGame()" class="reset-btn">Reset</button>
+
+        <script src="script.js">
+           
+        </script>
+    </div>
+</body>
+</html>
