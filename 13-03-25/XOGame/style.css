@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+/* New colour pallete to make the game appealing */
+table, td {
+    border: 1px solid #98D2C0;
+    border-collapse: collapse;
+}
+td {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:#205781;
+    color: white;
+}
+td:hover {
+    background-color:#4F959D;
+    transition: all;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
