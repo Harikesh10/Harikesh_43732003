@@ -3,51 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic Tac Toc</title>
-    <style>
-        body {
-            background-color: black;
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            flex-direction: column;
-        }
-        table, td {
-            border: 1px solid white;
-            border-collapse: collapse;
-        }
-        td {
-            width: 80px;
-            height: 80px;
-            text-align: center;
-            font-size: 24px;
-            font-weight: bold;
-            cursor: pointer;
-            background-color: #1e1e1e;
-            color: white;
-        }
-        td:hover {
-            background-color: #444;
-        }
-        .button-container {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
-        button {
-            padding: 10px 20px;
-            font-size: 18px;
-            cursor: pointer;
-            background-color: #6200ea;
-            color: white;
-            border: none;
-            border-radius: 5px;
-        }
-    </style>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body> 
+    <h1>TIC TAC TOE</h1>
+    <h3>XO Game</h3>
+    <h4>Enjoy and Experience the childhood feel!</h4>
+
+
     <div>
         <table>
             <tr>
@@ -70,59 +34,8 @@
             <button onclick="reset()">Reset</button>
         </div>
     </div>
-    <script>
-        let player = 'X'
-        const cells = document.getElementsByClassName('cell')
-
-        function play(obj, i){
-            console.log('Cell clicked', i)
-            if(obj.innerHTML === ''){
-                obj.innerHTML = player
-                if(check(player, i)){
-                    alert(`${player} wins!`)
-                    reset()
-                    return
-                }
-                if(filled()){
-                    console.log(`xo Draw`)
-                    reset()
-                }
-                player = (player === 'X') ? 'O' : 'X'
-            }
-        }
-
-        function check(player, i){
-            let cell_0 = cells[0].innerHTML
-            let cell_1 = cells[1].innerHTML
-            let cell_2 = cells[2].innerHTML
-            let cell_3 = cells[3].innerHTML
-            let cell_4 = cells[4].innerHTML
-            let cell_5 = cells[5].innerHTML
-            let cell_6 = cells[6].innerHTML
-            let cell_7 = cells[7].innerHTML
-            let cell_8 = cells[8].innerHTML
-
-            if((i === 0) && ((cell_1 == player && cell_2 == player) || (cell_3 == player && cell_6 == player) || (cell_4 == player && cell_8 == player))){
-                return true;
-            }
-
-            return false
-        }
-
-        function filled(){
-            for(let i = 0; i <= 8; i++){
-                if(cells[i].innerHTML === ''){
-                    return false
-                }
-            }
-            return true
-        }
-
-        function reset(){
-            for(let i = 0; i <= 8; i++){
-                cells[i].innerHTML = ''
-            }
-        }
+    <script src="script.js">
+        
     </script>
 </body>
 </html>
