@@ -524,3 +524,54 @@ document.getElementsByClassName('dish-container')[0].innerHTML=milkshakeData
                 return 0
             }
         }
+
+
+        
+        
+        // Function to shuffle array to generate the random images from the array 
+        // Using math.random to generate a random image from the array container
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+        
+        // The function is to make the dummy images to display all dishes and menu items randomly at page load 
+        window.onload = function() {
+            document.getElementsByClassName("menu-item")[0].innerHTML=foodData; 
+            
+            let allDishes = [
+                { imgScr: "./asset/salad1.png", name: "Veggie Salad", info: "A fresh veggie delight", price: 120 },
+                { imgScr: "./asset/chicken1.png", name: "Chicken 65", info: "Spicy fried chicken", price: 180 },
+                { imgScr: "./asset/cake1.png", name: "Pastry", info: "Delicious pastry treat", price: 100 },
+                { imgScr: "./asset/wrap1.png", name: "Paneer Wrap", info: "Stuffed paneer wrap", price: 140 },
+                { imgScr: "./asset/pizza1.png", name: "Pepperoni Pizza", info: "Cheesy and spicy", price: 200 },
+                { imgScr: "./asset/icecream1.png", name: "Vanilla Ice Cream", info: "Smooth and creamy", price: 50 },
+                { imgScr: "./asset/biryani1.png", name: "Veg Biryani", info: "Aromatic rice dish", price: 150 },
+                { imgScr: "./asset/dosa1.png", name: "Plain Dosa", info: "Crispy South Indian treat", price: 40 },
+                { imgScr: "./asset/milkshake1.png", name: "Vanilla Milkshake", info: "Chilled and refreshing", price: 100 }
+            ];
+        
+
+            //The loop to generate the random image from the array daapa
+            shuffleArray(allDishes);
+            let dishData = "";
+            allDishes.forEach(dish => {
+                dishData += `
+                <div class="dishes">
+                    <div class="dishes-container">
+                        <div class="dishes-image">
+                            <img src="${dish.imgScr}" alt="" class="dish-image">
+                        </div>
+                        <div class="dishes-info">
+                            <h3>${dish.name}</h3>
+                            <p>${dish.info}</p>
+                            <p>₹${dish.price}</p>
+                        </div>
+                    </div>
+                </div>`;
+            });
+            document.getElementsByClassName('dish-container')[0].innerHTML = dishData;
+        };
+        
