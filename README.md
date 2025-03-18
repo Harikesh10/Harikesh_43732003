@@ -66,3 +66,9 @@
 --> Started doing a do to list project
 
 --> Finished the javascript part
+
+#### 13/03/25
+
+--> Finished all the necessary projects for the lesson
+
+--> Completed the food delivery app , the todolist, the rockpaperscissors game , the tictactoe game
