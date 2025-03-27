@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rand Game</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+        }
+
+        .center-container{
+            padding: 10px;
+            border: 1px solid;
+            width: 20%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Guess the number from 1 to 10</h1>
+    <div class="container">
+        <center class="center-container">
+
+       
+            <input type="number" id="input_id">
+            <button onclick="comp()">check</button>
+            <p id="rank">Your are </p>
+            <p>Your Score <p id="you_score">0</p></p>
+            <p>Computer score <p id="comp_score">0</p></p>
+    
+            <p>Total Points <p id="point">10</p></p>
+            
+        </center>
+
+    </div>
+    
+    
+    
+
+    <script>
+        let count = 10
+        
+       
+        
+        function comp(){
+            
+            let a = Math.random()
+            let b =Math.floor(a*10+1)
+            console.log(b)
+            
+            let inp = document.getElementById('input_id').value
+            console.log(inp)
+            let your_score = document.getElementById('you_score').innerHTML= inp
+            let com_inp = document.getElementById('comp_score').innerHTML= b
+            
+
+            if (b===Number(inp)){
+                let answer = document.getElementById('rank').innerHTML="You are correct"
+              
+
+            }
+            else{
+                let answer = document.getElementById('rank').innerHTML="You are wrong" 
+                count = count-1
+                let total_points = document.getElementById('point').innerHTML=count
+            }
+
+        }
+
+
+    </script>
+</body>
+</html>
