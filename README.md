@@ -72,3 +72,15 @@
 --> Finished all the necessary projects for the lesson
 
 --> Completed the food delivery app , the todolist, the rockpaperscissors game , the tictactoe game
+
+#### 27/03/25
+
+--> Revised the function and dom in js 
+
+--> Created an adder system
+
+#### 28/03/25
+
+--> Revised the concepts of js , if else, loop, math functions
+
+--> Create a random number guessing game  between computer and us
