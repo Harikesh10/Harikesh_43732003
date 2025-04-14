@@ -83,4 +83,8 @@
 
 --> Revised the concepts of js , if else, loop, math functions
 
---> Create a random number guessing game  between computer and us
+--> Create a random number guessing game  between computer and us 
+
+#### 03/04/2025
+
+--> Revised the concepts of css and js , basic shit
