@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Fjalla+One&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Signika:wght@300..700&family=Sora:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: "Jost", sans-serif; */
+}
+body{
+    padding: 15px;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+form{
+    width: 400px;
+}
+
+form .form-group{
+    display: flex;
+    align-items: center;
+}
+form .form-group label{
+    font-weight: 500;
+    font-style: bold;
+    font-size: 20px;
+     min-width: 75px;
+}
+form .form-group input{
+    font-size: 16px;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin: 10px 0;
+    margin-left: 10px;
+   
+}
+
+form button{
+    padding: 5px 30px;
+    border-radius: 1px;
+    background-color: #444DAD;
+     border: none;
+    outline: none;
+    margin: 10px 85px;
+}
+
+
+table{
+    border: 2px solid;
+    border-collapse: collapse;
+    min-width: 500px;
+    border-color: #8DBCC7;
+}
+table thead tr th{
+    background-color:#8DBCC7;
+    color: black;
+    border-color: #8DBCC7;
+}
+
+
+table td, table th{
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    border-color: #8DBCC7;
+}
+
+.btn-edit{
+      padding: 4px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: lightskyblue;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+.btn-delete{
+    padding: 4px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: lightskyblue;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+.btn-edit:hover{
+    background-color: green;
+}
+.btn-delete:hover{
+    background-color: red;
+}
+
+.btn-edit ion-icon, .btn-delete ion-icon{
+    pointer-events: none;
+
+}
+
+
