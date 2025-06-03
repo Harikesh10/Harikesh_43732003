@@ -88,3 +88,8 @@
 #### 03/04/2025
 
 --> Revised the concepts of css and js , basic shit
+
+
+#### 02/06/2025
+
+--> Created a inventory with firebase as the backend with the basic CRUD Operations!
